@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35506.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "zentool", "zentool\zentool.vcxproj", "{67BC7C5B-A37A-4DEE-A3D9-2E9E0B8B9FC5}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "mcas", "mcas\mcas.vcxproj", "{721EADF1-57A0-4486-99F1-B0B6A579E305}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "mcop", "mcop\mcop.vcxproj", "{F62B763A-EBEE-4344-9112-51B9F13FDF9C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{67BC7C5B-A37A-4DEE-A3D9-2E9E0B8B9FC5}.Release|x64.ActiveCfg = Release|x64
+		{67BC7C5B-A37A-4DEE-A3D9-2E9E0B8B9FC5}.Release|x64.Build.0 = Release|x64
+		{721EADF1-57A0-4486-99F1-B0B6A579E305}.Release|x64.ActiveCfg = Release|x64
+		{721EADF1-57A0-4486-99F1-B0B6A579E305}.Release|x64.Build.0 = Release|x64
+		{F62B763A-EBEE-4344-9112-51B9F13FDF9C}.Release|x64.ActiveCfg = Release|x64
+		{F62B763A-EBEE-4344-9112-51B9F13FDF9C}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

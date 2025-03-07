@@ -1,0 +1,170 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{27a01eb5-294a-46df-afab-74b12292a68f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\gen">
+      <UniqueIdentifier>{c898a73b-f9de-49cb-bcf3-c26518b882ed}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\corechk.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cpuid.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\data.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\disas.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\dump.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\edit.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\encrypt.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\factor.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\fields.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\fixup.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\loader.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\options.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\parse.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\preimage.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\risc86.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\structs.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\symbols.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ucode.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\util.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\verify.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\xxtea.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\zentool.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\win.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\win_getopt.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\win_kernel.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\win_test.c">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\compat.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\cpuid.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\crypt.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\data.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\disas.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\factor.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\fields.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\options.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\parse.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\primes.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\risc86.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\symbols.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ucode.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\util.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\xxtea.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\win.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gen\BrOp_fields.h">
+      <Filter>src\gen</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gen\LdStOp_fields.h">
+      <Filter>src\gen</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gen\RegOp_fields.h">
+      <Filter>src\gen</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gen\SpecOp_fields.h">
+      <Filter>src\gen</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gen\SRegOp_fields.h">
+      <Filter>src\gen</Filter>
+    </ClInclude>
+    <ClInclude Include="src\win_getopt.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\win_kernel.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\win_test.h">
+      <Filter>src</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <MASM Include="src\win_fpatan.asm">
+      <Filter>src</Filter>
+    </MASM>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,164 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\zentool\src\compat.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\zentool\src\cpuid.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\zentool\src\crypt.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\zentool\src\data.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\zentool\src\disas.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\zentool\src\factor.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\zentool\src\fields.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\zentool\src\options.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\zentool\src\parse.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\zentool\src\primes.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\zentool\src\risc86.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\zentool\src\symbols.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\zentool\src\ucode.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\zentool\src\util.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\zentool\src\win.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\zentool\src\win_bit.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\zentool\src\win_compile_options.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\zentool\src\win_getopt.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\zentool\src\xxtea.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\zentool\src\win_kernel.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\zentool\src\win_test.h">
+      <Filter>src</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\zentool\src\corechk.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\zentool\src\cpuid.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\zentool\src\data.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\zentool\src\disas.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\zentool\src\dump.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\zentool\src\edit.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\zentool\src\encrypt.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\zentool\src\factor.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\zentool\src\fields.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\zentool\src\fixup.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\zentool\src\loader.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\zentool\src\mcas.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\zentool\src\options.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\zentool\src\parse.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\zentool\src\preimage.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\zentool\src\risc86.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\zentool\src\structs.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\zentool\src\symbols.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\zentool\src\ucode.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\zentool\src\util.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\zentool\src\verify.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\zentool\src\win.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\zentool\src\win_getopt.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\zentool\src\xxtea.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\zentool\src\win_kernel.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\zentool\src\win_test.c">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\zentool\src\opcodes.asm">
+      <Filter>src</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <MASM Include="..\zentool\src\win_fpatan.asm">
+      <Filter>src</Filter>
+    </MASM>
+  </ItemGroup>
+</Project>
